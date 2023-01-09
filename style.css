@@ -1,0 +1,64 @@
+h1 {
+    color:brown;
+}
+table {
+    color: blue;
+}
+select{
+    color:crimson;
+}
+.tableau {
+    color :red;
+    text-align: center;
+}
+  
+  a {
+    
+    display:inline;
+    margin: 100px;
+    padding: 10px;
+    background-color:yellowgreen;
+    box-shadow: 5px 5px 5px;
+  }
+  a:hover{
+    color: red;
+  }
+  ol >li{
+    background-color:blanchedalmond;
+  }
+  ol li{
+    font-family:fantasy;
+    text-decoration: line-through;
+  }
+
+  .background{
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80) ;
+  }
+  nav{
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+    font-weight: bold;
+    font-family:monospace;
+    text-shadow: 3px 2px 3px;
+  }
+  .box{
+    font-weight: bolder;
+    text-align:center;
+    font-family:sans-serif;
+    background-color: maroon;
+    width: 50px;
+    height: 65px;
+    padding: 200px;
+    margin: 19px;
+    border: 10px dotted;
+  }
+  .box1{
+    background-color: aquamarine;
+    width: 70px;
+    height: 35px;
+    position: sticky;
+    top: 0;
+  }
+  

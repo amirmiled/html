@@ -2,37 +2,42 @@
 <html>
   <head>  
 		<title> my first application ! </title>
+    <link rel="stylesheet" href="style.css">
   </head>
-    <body>
+    <body class="background">
       <header>
         <nav>
           <a href="./home.html">home</a>
           <a href="./contact.html">contact</a>
+          <a href="./aboutus.html">about us</a>
         </nav>
         <p><i>voici</i>
           <ol>
             <li type="I">un video</li>
             <li type="I">une image</li>
+            <div>
             <li type="I">un audio</li>
             <li type="I">un tableau</li>
+          </div>
           </ol></p>
-        <h1>video</h1>
-        <video width="320" height="240" autoplay>
-          <source src="https://youtu.be/SreCPtk4sHA" type="video/mp4"/>
-          check this video 
-        </video>
+        <h1 class="text">video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SreCPtk4sHA"
+         title="YouTube video player"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
         <br><br><br><br><br><br><br><br>
-        <h1>image</h1>
+        <h1 class="text">image</h1>
         <img src="C:\Users\GIS\Desktop\tower_0.jpg" alt="tower">
         <br><br><br><br><br><br><br><br>
-        <h1>audio</h1>
+        <h1 class="text">audio</h1>
         <audio controls>
           <source src="test.mp3" type="audio/mpeg">
               Please Check the audio Extension
         </audio>
       </header>
       <br><br>
-      <h1>TEST TABLEAU</h1>
+      <h1 class="tableau">TEST TABLEAU</h1>
       <table border="4">
         <tr>
           <th>hello</th>
@@ -59,6 +64,8 @@
       </select>
       <br>
       <textarea rows="5" cols="40">ENTRER VOTRE COMMENTAIRE</textarea>
+      <div class="box">this is a box 
+        <div class="box1"></div></div>
     </body>
     
     
